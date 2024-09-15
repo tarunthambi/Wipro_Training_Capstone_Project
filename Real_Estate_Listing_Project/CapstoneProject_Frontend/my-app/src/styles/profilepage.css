@@ -1,0 +1,99 @@
+/* General styles for the profile container */
+.profile-container {
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Added shadow for the profile */
+}
+
+/* User details styling */
+.userdetails {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Loading message styles */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading-message {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Modal styling */
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .profile-container {
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Adjusted shadow for mobile */
+    }
+
+    .userdetails {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .loading-message {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-container {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); /* Softer shadow for smaller screens */
+    }
+
+    .userdetails {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    button {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+
+    .loading-message {
+        font-size: 1rem;
+    }
+}
+

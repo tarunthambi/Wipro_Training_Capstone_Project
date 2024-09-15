@@ -1,0 +1,17 @@
+.favorite-icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .favorite-icon {
+    color: #f00;
+  }
+  
+  .favorite-icon:hover {
+    opacity: 0.7;
+  }
+  

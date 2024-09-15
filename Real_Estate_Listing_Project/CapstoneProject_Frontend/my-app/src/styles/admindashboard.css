@@ -1,0 +1,56 @@
+/* Full background styling */
+.admin-dashboard-bg {
+    background-image: url('../../public/images/admin1.avif'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+  }
+  
+  /* Welcome text at the top */
+  .welcome-text {
+    margin-top: 20px; /* Adjust margin to position the welcome text at the top */
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .h3text{
+    padding-top: 140px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Centered button group */
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px; /* Place the buttons above the bottom */
+    width: 100%;
+    max-width: 400px; /* Adjust to control the size of the buttons */
+  }
+  
+  /* Button styling */
+  .dashboard-button {
+    margin: 0 15px;
+    width: 180px;
+    height: 80px; 
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Enable scrolling */
+  html, body {
+    height: 100%;
+    overflow: auto;
+  }
+  

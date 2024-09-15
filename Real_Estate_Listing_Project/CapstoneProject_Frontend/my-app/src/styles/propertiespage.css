@@ -1,0 +1,80 @@
+/* Filter card styling */
+.filters {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+.text-center.mb-4{
+  margin-right: 80px;
+}
+
+.search-input{
+  width: 400px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: aliceblue;
+}
+
+.search-button{
+  width: 150px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.property-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+.property-card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.property-card .card-body {
+  padding: 15px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .filters {
+    margin-bottom: 20px;
+  }
+
+  .searchbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-input {
+    margin-bottom: 10px;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .upper-part h1 {
+    font-size: 24px;
+  }
+
+  .upper-part h2 {
+    font-size: 18px;
+  }
+}

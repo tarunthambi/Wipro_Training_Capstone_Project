@@ -1,0 +1,6 @@
+@NotificationMicroservice_HostAddress = http://localhost:5096
+
+GET {{NotificationMicroservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

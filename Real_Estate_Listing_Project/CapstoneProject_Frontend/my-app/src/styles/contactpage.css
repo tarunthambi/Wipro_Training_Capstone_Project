@@ -1,0 +1,57 @@
+.contact-page {
+    background: url('../../public/images/cont.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+  
+ 
+  .text-white.display-2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .text-white.mb-4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  
+  .col-md-6 {
+    margin-bottom: 100px;
+    width: 100%; 
+  }
+  
+  .col-md-5 {
+    width: 100%; 
+    margin-left: 0;
+    margin-bottom: 30px;
+    border-radius: 50px;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 {
+      width: 550px;
+      margin-bottom: 50px;
+    }
+    
+    .col-md-5 {
+      width: 470px;
+      margin-left: 250px;
+      margin-bottom: 30px;
+    }
+  
+    .bg-light.p-4.rounded {
+      padding: 3rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .contact-page {
+      padding-top: 100px; 
+    }
+  
+    .col-md-6 {
+      margin-bottom: 100px;
+    }
+  }
+  

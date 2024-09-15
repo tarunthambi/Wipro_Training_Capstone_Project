@@ -1,0 +1,97 @@
+/* Custom "Welcome" message styling */
+.h1welcome {
+    position: absolute;
+    top: 40px;
+    font-size: 36px;
+    left: 50px;
+}
+
+.text-center {
+    color: white;
+    margin-right: 450px;
+}
+
+.h1text {
+    font-family: 'GRADUATE';
+}
+
+/* Background image for the main page */
+.home-page {
+    background-image: url('../../public/images/home2.jpg'); /* Adjusted path */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .h1welcome {
+        font-size: 32px;
+        left: 40px;
+    }
+    .text-center {
+        margin-right: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .h1welcome {
+        font-size: 28px;
+        top: 30px;
+        left: 30px;
+    }
+    .text-center {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .h1welcome {
+        font-size: 24px;
+        top: 20px;
+        left: 20px;
+    }
+    .text-center {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .h1text {
+        font-size: 2rem;
+    }
+    .h3text {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .h1welcome {
+        font-size: 20px;
+        top: 15px;
+        left: 15px;
+    }
+    .text-center {
+        margin-right: 0;
+        text-align: center;
+    }
+    .h1text {
+        font-size: 1.75rem;
+    }
+    .h3text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .h1welcome {
+        font-size: 18px;
+        top: 10px;
+        left: 10px;
+    }
+    .h1text {
+        font-size: 1.5rem;
+    }
+    .h3text {
+        font-size: 0.9rem;
+    }
+}
